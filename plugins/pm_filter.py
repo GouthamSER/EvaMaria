@@ -628,6 +628,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     await query.answer('Piracy Is Crime')
 
 #spell check added lallu_tgs
+
 async def auto_filter(client, msg, spoll=False):
     if not spoll:
         message = msg
@@ -640,10 +641,22 @@ async def auto_filter(client, msg, spoll=False):
                 if SPELL_MODE:  
                     reply = search.replace(" ", "+")
                     reply_markup = InlineKeyboardMarkup([[
-                        InlineKeyboardButton("🔍ꜱᴇᴀʀᴄʜ ɢᴏᴏɢʟ🔎", url=f"https://google.com/search?q={reply}")
+                        InlineKeyboardButton("📁𝙸𝙽𝚂𝚃𝚁𝚄𝙲𝚃𝙸𝙾𝙽𝚂📁", callback_data="inst")
+                    ],[
+                        InlineKeyboardButton("ᴍᴀʟ", callback_data="mal"),
+                        InlineKeyboardButton("ᴛᴀᴍ", callback_data="tam"),
+                        InlineKeyboardButton("ʜɪɴ", callback_data="bet"),
+                        InlineKeyboardButton("ᴇɴɢ", callback_data="eng")
+                    ],[
+                        InlineKeyboardButton("🔍ꜱᴇᴀʀᴄʜ ɢᴏᴏɢʟ🔎", url=f"https://google.com/find?q={reply}")
                     ]])
-                        lallu=await message.reply_photo(photo="https://telegra.ph/file/71e3cf4389bbea5ccdca0.jpg", text=SPELL_TXT.format(mention=message.from_user.mention, query=search, title=imdb.get('title'), genres=imdb.get('genres'), year=imdb.get('year'), rating=imdb.get('rating'), short=imdb.get('short_info'), url=imdb['url']), reply_markup=reply_markup)
-                        await asyncio.sleep(60)                   
+                    imdb=await get_poster(search)
+                    if imdb and imdb.get('poster'):
+                        m=await message.reply_sticker("CAACAgIAAxkBAAEIkztkOTNMchD-DTt_3EWvl2bavAktOAACTxgAAn3d8UjJlGOnEG3H8S8E")
+                        await asyncio.sleep(5)
+                        await m.delete()
+                        lallu=await message.reply_photo(photo="https://telegra.ph/file/71e3cf4389bbea5ccdca0.jpg", caption=SPELL_TXT.format(mention=message.from_user.mention, query=search, title=imdb.get('title'), genres=imdb.get('genres'), year=imdb.get('year'), rating=imdb.get('rating'), short=imdb.get('short_info'), url=imdb['url']), reply_markup=reply_markup)
+                        await asyncio.sleep(200)                   
                         await lallu.delete()
                         return
                     else:
