@@ -10,6 +10,7 @@ My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies And Series,Just 
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: AnyWhere
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v2.3 [ StaBLe ]"""
+    
     SOURCE_TXT = """<b>NOTE:</b>
 - THIS BOT is NOT open source project. 
 - Source - https://github.com/  
@@ -99,6 +100,18 @@ This module only works for my admins
 ★ Total Chats: <code>{}</code>
 ★ Using Storage: <code>{}</code> MB
 ★ Free Storage: <code>{}</code> MB"""
+    
+    ALRT_TXT = """Hello {},
+This is Not your Request
+Request Yourself...!!"""
+
+    OLD_ALRT_TXT = """Hey {},
+You are using one of old message,
+Request Again"""
+
+    CUDNT_FND = """<b><i>
+𝖨 𝖼𝗈𝗎𝗅𝖽𝗇'𝗍 𝖿𝗂𝗇𝖽 𝖺𝗇𝗒𝗍𝗁𝗂𝗇𝗀 𝗋𝖾𝗅𝖺𝗍𝖾𝖽 𝗍𝗈 𝗍𝗁𝖺𝗍
+𝖣𝗂𝖽 𝗒𝗈𝗎 𝗆𝖾𝖺𝗇 𝖺𝗇𝗒 𝗈𝗇𝖾 𝗈𝖿 𝗍𝗁𝖾𝗌𝖾?</i></b>"""
     
     MVE_NT_FND = """❌ <b>𝖨 𝖼𝗈𝗎𝗅𝖽𝗇'𝗍 𝖿𝗂𝗇𝖽 𝖺𝗇𝗒𝗍𝗁𝗂𝗇𝗀 𝗋𝖾𝗅𝖺𝗍𝖾𝖽 𝗍𝗈 𝗍𝗁𝖺𝗍</b>\n\n‼ <b><i>𝖱𝖾𝗉𝗈𝗋𝗍 𝗍𝗈 𝖺𝖽𝗆𝗂𝗇 ▶ @im_goutham_josh</i></b>"""
     
