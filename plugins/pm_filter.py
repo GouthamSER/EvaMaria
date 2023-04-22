@@ -727,6 +727,8 @@ async def auto_filter(client, msg, spoll=False):
         await msg.message.delete()
 
 
+        
+        
 async def advantage_spell_chok(client, msg):
     mv_id = msg.id
     mv_rqst = msg.text
@@ -743,11 +745,12 @@ async def advantage_spell_chok(client, msg):
         logger.exception(e)
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-                     InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ ᴏɴ ɢᴏᴏɢʟᴇ​ 🔎', url=f"https://www.google.com/search?q={reqst_gle}")            
-                 ]]
+                 InlineKeyboardButton('🔍 ɢᴏᴏɢʟᴇ 🔎', url=f"https://www.google.com/search?q={reqst_gle}"),
+                 InlineKeyboardButton('🔰 ɪᴍᴅʙ ', url=f"https://www.imdb.com/search?={reqst_imd}")
+             ]]
         
         k = await msg.reply_text(
-            text=("<b>sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ\n\nᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ !!</b>"),
+            text(script.SPOLL_NOT_FND), #IN SCRIPT CHANGE DONOT CHANGE CODE
             reply_markup=InlineKeyboardMarkup(button),
             reply_to_message_id=msg.id
         )
@@ -758,10 +761,11 @@ async def advantage_spell_chok(client, msg):
     if not movies:
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-                    InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ ᴏɴ ɢᴏᴏɢʟᴇ​ 🔎', url=f"https://www.google.com/search?q={reqst_gle}")   
-                 ]]
+                 InlineKeyboardButton('🔍 ɢᴏᴏɢʟᴇ 🔎', url=f"https://www.google.com/search?q={reqst_gle}"),
+                 InlineKeyboardButton('🔰 ɪᴍᴅʙ ', url=f"https://www.imdb.com/search?={reqst_imd}") 
+             ]]
         k = await msg.reply_text(
-            text=("<b>sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ\n\nᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ !!</b>"),
+            text(script.SPOLL_NOT_FND),  #DONOTCHANGE IN THIS CODE PLS CHANGE IN SCRIPT
             reply_markup=InlineKeyboardMarkup(button),
             reply_to_message_id=msg.id
         )
@@ -788,6 +792,9 @@ async def advantage_spell_chok(client, msg):
     await asyncio.sleep(600)
     await spell_check_del.delete()
 
+    
+    
+    
 async def manual_filters(client, message, text=False):
     group_id = message.chat.id
     name = text or message.text
