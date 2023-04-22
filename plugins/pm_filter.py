@@ -750,7 +750,7 @@ async def advantage_spell_chok(client, msg):
              ]]
         
         k = await msg.reply_text(
-            text(script.SPOLL_NOT_FND), #IN SCRIPT CHANGE DONOT CHANGE CODE
+            text=script.SPOLL_NOT_FND, #IN SCRIPT CHANGE DONOT CHANGE CODE
             reply_markup=InlineKeyboardMarkup(button),
             reply_to_message_id=msg.id
         )
@@ -765,7 +765,7 @@ async def advantage_spell_chok(client, msg):
                  InlineKeyboardButton('🔰 ɪᴍᴅʙ ', url=f"https://imdb.com/find?q={reply}") 
              ]]
         k = await msg.reply_text(
-            text(script.SPOLL_NOT_FND),  #DONOTCHANGE IN THIS CODE PLS CHANGE IN SCRIPT
+            text=script.SPOLL_NOT_FND,  #DONOTCHANGE IN THIS CODE PLS CHANGE IN SCRIPT
             reply_markup=InlineKeyboardMarkup(button),
             reply_to_message_id=msg.id
         )
