@@ -743,10 +743,10 @@ async def advantage_spell_chok(client, msg):
         movies = await get_poster(mv_rqst, bulk=True)
     except Exception as e:
         logger.exception(e)
-        reqst_gle = mv_rqst.replace(" ", "+")
+        reqst_imd = reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
                  InlineKeyboardButton('🔍 ɢᴏᴏɢʟᴇ 🔎', url=f"https://www.google.com/search?q={reqst_gle}"),
-                 InlineKeyboardButton('🔰 ɪᴍᴅʙ ', url=f"https://imdb.com/find?q={reply}")
+                 InlineKeyboardButton('🔰 ɪᴍᴅʙ ', url=f"https://imdb.com/find?q={reqst_imd}")
              ]]
         
         k = await msg.reply_text(
@@ -759,10 +759,10 @@ async def advantage_spell_chok(client, msg):
         return
     movielist = []
     if not movies:
-        reqst_gle = mv_rqst.replace(" ", "+")
+        reqst_imd = reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
                  InlineKeyboardButton('🔍 ɢᴏᴏɢʟᴇ 🔎', url=f"https://www.google.com/search?q={reqst_gle}"),
-                 InlineKeyboardButton('🔰 ɪᴍᴅʙ ', url=f"https://imdb.com/find?q={reply}") 
+                 InlineKeyboardButton('🔰 ɪᴍᴅʙ ', url=f"https://imdb.com/find?q={reqst_imd}") 
              ]]
         k = await msg.reply_text(
             text=script.SPOLL_NOT_FND,  #DONOTCHANGE IN THIS CODE PLS CHANGE IN SCRIPT
