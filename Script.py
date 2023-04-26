@@ -12,7 +12,7 @@ My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies And Series,Just 
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v2.3 [ StaBLe ]"""
  
    #ALERT MSG PMFILTER
-    ABT_TXT = """✯ Mʏ Nᴀᴍᴇ: {}
+    ABT_TXT = """✯ Mʏ Nᴀᴍᴇ: Kᴜᴛᴛᴜ Bᴏᴛ ™
 ✯ Cʀᴇᴀᴛᴏʀ: Gᴏᴜᴛʜᴀᴍ Sᴇʀ
 ✯ Lɪʙʀᴀʀʏ: Pʏʀᴏɢʀᴀᴍ
 ✯ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3
