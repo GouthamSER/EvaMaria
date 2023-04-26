@@ -12,13 +12,13 @@ My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies And Series,Just 
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v2.3 [ StaBLe ]"""
  
    #ALERT MSG PMFILTER
-    ABT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/wudixh13/4'>Gᴏᴜᴛʜᴀᴍ Sᴇʀ</a>
-✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
-✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
-✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
-✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://app.koyeb.com/'>QuickFast</a>
-✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.3 [ Sᴛᴀʙʟᴇ ]</b>"""
+    ABT_TXT = """✯ Mʏ Nᴀᴍᴇ: {}
+✯ Cʀᴇᴀᴛᴏʀ: Gᴏᴜᴛʜᴀᴍ Sᴇʀ
+✯ Lɪʙʀᴀʀʏ: Pʏʀᴏɢʀᴀᴍ
+✯ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3
+✯ DᴀᴛᴀBᴀsᴇ: MᴏɴɢᴏDB
+✯ Bᴏᴛ Sᴇʀᴠᴇʀ: QuickFast
+✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.3 [ Sᴛᴀʙʟᴇ ]"""
    
     SOURCE_TXT = """<b>NOTE:</b>
 - THIS BOT is NOT open source project. 
