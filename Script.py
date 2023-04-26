@@ -10,7 +10,13 @@ My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies And Series,Just 
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: AnyWhere
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v2.3 [ StaBLe ]"""
-    
+ 
+    ABT_TXT = """🗽|𝔸𝔹𝕆𝕌𝕋 𝕄𝔼𝕊𝕊𝔸𝔾𝔼|🗽
+●𝙰𝚖 𝚊 𝚙𝚘𝚠𝚎𝚛𝚏𝚞𝚕𝚕 𝙰𝚞𝚝𝚘𝚏𝚒𝚕𝚝𝚎𝚛𝙱𝚘𝚝
+●𝙾𝚠𝚗𝚎𝚛 𝐆𝐨𝐮𝐭𝐡𝐨𝐦 𝐒𝐞𝐫
+●𝙰𝚖 𝚅𝚎𝚛𝚢 𝙿𝚘𝚠𝚎𝚛𝙵𝚞𝚕𝚕
+🍿ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩ🍿"""
+   
     SOURCE_TXT = """<b>NOTE:</b>
 - THIS BOT is NOT open source project. 
 - Source - https://github.com/  
