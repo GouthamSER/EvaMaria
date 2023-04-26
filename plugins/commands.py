@@ -47,7 +47,7 @@ async def start(client, message):
                     InlineKeyboardButton('🧩 Movie 𝖦𝗋𝗈𝗎𝗉', url='https://t.me/wudixh')
                 ],[
                     InlineKeyboardButton('ℹ️ 𝖧𝖾𝗅𝗉', callback_data='help'),
-                    InlineKeyboardButton('😊 𝖠𝖻𝗈𝗎𝗍', callback_data='about'),
+                    InlineKeyboardButton('😊 𝖠𝖻𝗈𝗎𝗍', callback_data='abt'),
                 ],[
                     InlineKeyboardButton('🔎 𝖨𝗇𝗅𝗂𝗇𝖾 𝖲𝖾𝖺𝗋𝖼𝗁', switch_inline_query_current_chat='')
                   ]]
